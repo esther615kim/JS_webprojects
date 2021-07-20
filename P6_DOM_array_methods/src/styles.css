@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+/* */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column; /* 세로 */
+  align-items: center;
+  min-height: 30rem;
+  margin: 0 auto;
+  width: 60rem;
+  border-radius: 10px;
+}
+
+.container {
+  border-top: 5px solid hsl(225, 53%, 15%);
+  background: hsl(225, 23%, 41%);
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+/*버튼쪽 */
+aside {
+  padding: 10px 20px;
+  width: 250px;
+  border-right: 1px solid #111;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: solid 1px #111;
+  border-radius: 5px;
+  display: block; /* 1줄당 1개*/
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button:hover {
+  background: hsl(209, 78%, 51%);
+  color: #fff;
+}
+
+main {
+  color: white;
+  flex: 1; /* 전체차지 */
+  padding: 10px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #111;
+  padding-bottom: 10px;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between; /* 적당히 떨어짐 */
+  font-weight: 300; /* 좀 더 얇은 */
+  margin: 0 0 20px;
+}
+
+h3 {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
